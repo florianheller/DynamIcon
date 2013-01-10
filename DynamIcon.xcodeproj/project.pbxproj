@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCCF848169F2B1D003AA4A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCCF847169F2B1D003AA4A0 /* UIKit.framework */; };
+		4CCCF84A169F2B1D003AA4A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCCF849169F2B1D003AA4A0 /* Foundation.framework */; };
+		4CCCF84C169F2B1D003AA4A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCCF84B169F2B1D003AA4A0 /* CoreGraphics.framework */; };
+		4CCCF852169F2B1D003AA4A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF850169F2B1D003AA4A0 /* InfoPlist.strings */; };
+		4CCCF854169F2B1D003AA4A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCF853169F2B1D003AA4A0 /* main.m */; };
+		4CCCF858169F2B1D003AA4A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCF857169F2B1D003AA4A0 /* AppDelegate.m */; };
+		4CCCF85A169F2B1D003AA4A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF859169F2B1D003AA4A0 /* Default.png */; };
+		4CCCF85C169F2B1D003AA4A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF85B169F2B1D003AA4A0 /* Default@2x.png */; };
+		4CCCF85E169F2B1E003AA4A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF85D169F2B1E003AA4A0 /* Default-568h@2x.png */; };
+		4CCCF861169F2B1E003AA4A0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCF860169F2B1E003AA4A0 /* FirstViewController.m */; };
+		4CCCF863169F2B1E003AA4A0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF862169F2B1E003AA4A0 /* first.png */; };
+		4CCCF865169F2B1E003AA4A0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF864169F2B1E003AA4A0 /* first@2x.png */; };
+		4CCCF868169F2B1E003AA4A0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCF867169F2B1E003AA4A0 /* SecondViewController.m */; };
+		4CCCF86A169F2B1E003AA4A0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF869169F2B1E003AA4A0 /* second.png */; };
+		4CCCF86C169F2B1E003AA4A0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF86B169F2B1E003AA4A0 /* second@2x.png */; };
+		4CCCF86F169F2B1E003AA4A0 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF86D169F2B1E003AA4A0 /* FirstViewController.xib */; };
+		4CCCF872169F2B1E003AA4A0 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF870169F2B1E003AA4A0 /* SecondViewController.xib */; };
+		4CCCF87B169F2BAB003AA4A0 /* thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF879169F2BAB003AA4A0 /* thermometer.png */; };
+		4CCCF87C169F2BAB003AA4A0 /* thermometer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF87A169F2BAB003AA4A0 /* thermometer@2x.png */; };
+		4CCCF87F169F2C27003AA4A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCF881169F2C27003AA4A0 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CCCF843169F2B1D003AA4A0 /* DynamIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCCF847169F2B1D003AA4A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CCCF849169F2B1D003AA4A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CCCF84B169F2B1D003AA4A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CCCF84F169F2B1D003AA4A0 /* DynamIcon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamIcon-Info.plist"; sourceTree = "<group>"; };
+		4CCCF851169F2B1D003AA4A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CCCF853169F2B1D003AA4A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CCCF855169F2B1D003AA4A0 /* DynamIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamIcon-Prefix.pch"; sourceTree = "<group>"; };
+		4CCCF856169F2B1D003AA4A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CCCF857169F2B1D003AA4A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CCCF859169F2B1D003AA4A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4CCCF85B169F2B1D003AA4A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4CCCF85D169F2B1E003AA4A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CCCF85F169F2B1E003AA4A0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4CCCF860169F2B1E003AA4A0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4CCCF862169F2B1E003AA4A0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4CCCF864169F2B1E003AA4A0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4CCCF866169F2B1E003AA4A0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4CCCF867169F2B1E003AA4A0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4CCCF869169F2B1E003AA4A0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4CCCF86B169F2B1E003AA4A0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4CCCF86E169F2B1E003AA4A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		4CCCF871169F2B1E003AA4A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		4CCCF879169F2BAB003AA4A0 /* thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thermometer.png; sourceTree = "<group>"; };
+		4CCCF87A169F2BAB003AA4A0 /* thermometer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thermometer@2x.png"; sourceTree = "<group>"; };
+		4CCCF880169F2C27003AA4A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CCCF882169F2C30003AA4A0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCCF840169F2B1D003AA4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCF848169F2B1D003AA4A0 /* UIKit.framework in Frameworks */,
+				4CCCF84A169F2B1D003AA4A0 /* Foundation.framework in Frameworks */,
+				4CCCF84C169F2B1D003AA4A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCCF838169F2B1D003AA4A0 = {
+			isa = PBXGroup;
+			children = (
+				4CCCF84D169F2B1D003AA4A0 /* DynamIcon */,
+				4CCCF846169F2B1D003AA4A0 /* Frameworks */,
+				4CCCF844169F2B1D003AA4A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCCF844169F2B1D003AA4A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCF843169F2B1D003AA4A0 /* DynamIcon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCCF846169F2B1D003AA4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCF847169F2B1D003AA4A0 /* UIKit.framework */,
+				4CCCF849169F2B1D003AA4A0 /* Foundation.framework */,
+				4CCCF84B169F2B1D003AA4A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CCCF84D169F2B1D003AA4A0 /* DynamIcon */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCF856169F2B1D003AA4A0 /* AppDelegate.h */,
+				4CCCF857169F2B1D003AA4A0 /* AppDelegate.m */,
+				4CCCF85F169F2B1E003AA4A0 /* FirstViewController.h */,
+				4CCCF860169F2B1E003AA4A0 /* FirstViewController.m */,
+				4CCCF866169F2B1E003AA4A0 /* SecondViewController.h */,
+				4CCCF867169F2B1E003AA4A0 /* SecondViewController.m */,
+				4CCCF86D169F2B1E003AA4A0 /* FirstViewController.xib */,
+				4CCCF870169F2B1E003AA4A0 /* SecondViewController.xib */,
+				4CCCF84E169F2B1D003AA4A0 /* Supporting Files */,
+			);
+			path = DynamIcon;
+			sourceTree = "<group>";
+		};
+		4CCCF84E169F2B1D003AA4A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCF878169F2B4C003AA4A0 /* Images */,
+				4CCCF84F169F2B1D003AA4A0 /* DynamIcon-Info.plist */,
+				4CCCF850169F2B1D003AA4A0 /* InfoPlist.strings */,
+				4CCCF853169F2B1D003AA4A0 /* main.m */,
+				4CCCF855169F2B1D003AA4A0 /* DynamIcon-Prefix.pch */,
+				4CCCF881169F2C27003AA4A0 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCCF878169F2B4C003AA4A0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCF879169F2BAB003AA4A0 /* thermometer.png */,
+				4CCCF87A169F2BAB003AA4A0 /* thermometer@2x.png */,
+				4CCCF859169F2B1D003AA4A0 /* Default.png */,
+				4CCCF85B169F2B1D003AA4A0 /* Default@2x.png */,
+				4CCCF85D169F2B1E003AA4A0 /* Default-568h@2x.png */,
+				4CCCF862169F2B1E003AA4A0 /* first.png */,
+				4CCCF864169F2B1E003AA4A0 /* first@2x.png */,
+				4CCCF869169F2B1E003AA4A0 /* second.png */,
+				4CCCF86B169F2B1E003AA4A0 /* second@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCCF842169F2B1D003AA4A0 /* DynamIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCCF875169F2B1E003AA4A0 /* Build configuration list for PBXNativeTarget "DynamIcon" */;
+			buildPhases = (
+				4CCCF83F169F2B1D003AA4A0 /* Sources */,
+				4CCCF840169F2B1D003AA4A0 /* Frameworks */,
+				4CCCF841169F2B1D003AA4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamIcon;
+			productName = DynamIcon;
+			productReference = 4CCCF843169F2B1D003AA4A0 /* DynamIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCCF83A169F2B1D003AA4A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Florian Heller - RWTH Aachen University";
+			};
+			buildConfigurationList = 4CCCF83D169F2B1D003AA4A0 /* Build configuration list for PBXProject "DynamIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+			);
+			mainGroup = 4CCCF838169F2B1D003AA4A0;
+			productRefGroup = 4CCCF844169F2B1D003AA4A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCCF842169F2B1D003AA4A0 /* DynamIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCCF841169F2B1D003AA4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCF852169F2B1D003AA4A0 /* InfoPlist.strings in Resources */,
+				4CCCF85A169F2B1D003AA4A0 /* Default.png in Resources */,
+				4CCCF85C169F2B1D003AA4A0 /* Default@2x.png in Resources */,
+				4CCCF85E169F2B1E003AA4A0 /* Default-568h@2x.png in Resources */,
+				4CCCF863169F2B1E003AA4A0 /* first.png in Resources */,
+				4CCCF865169F2B1E003AA4A0 /* first@2x.png in Resources */,
+				4CCCF86A169F2B1E003AA4A0 /* second.png in Resources */,
+				4CCCF86C169F2B1E003AA4A0 /* second@2x.png in Resources */,
+				4CCCF86F169F2B1E003AA4A0 /* FirstViewController.xib in Resources */,
+				4CCCF872169F2B1E003AA4A0 /* SecondViewController.xib in Resources */,
+				4CCCF87B169F2BAB003AA4A0 /* thermometer.png in Resources */,
+				4CCCF87C169F2BAB003AA4A0 /* thermometer@2x.png in Resources */,
+				4CCCF87F169F2C27003AA4A0 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCCF83F169F2B1D003AA4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCF854169F2B1D003AA4A0 /* main.m in Sources */,
+				4CCCF858169F2B1D003AA4A0 /* AppDelegate.m in Sources */,
+				4CCCF861169F2B1E003AA4A0 /* FirstViewController.m in Sources */,
+				4CCCF868169F2B1E003AA4A0 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CCCF850169F2B1D003AA4A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCCF851169F2B1D003AA4A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CCCF86D169F2B1E003AA4A0 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCCF86E169F2B1E003AA4A0 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		4CCCF870169F2B1E003AA4A0 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCCF871169F2B1E003AA4A0 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		4CCCF881169F2C27003AA4A0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCCF880169F2C27003AA4A0 /* en */,
+				4CCCF882169F2C30003AA4A0 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCCF873169F2B1E003AA4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CCCF874169F2B1E003AA4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCCF876169F2B1E003AA4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamIcon/DynamIcon-Prefix.pch";
+				INFOPLIST_FILE = "DynamIcon/DynamIcon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CCCF877169F2B1E003AA4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamIcon/DynamIcon-Prefix.pch";
+				INFOPLIST_FILE = "DynamIcon/DynamIcon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCCF83D169F2B1D003AA4A0 /* Build configuration list for PBXProject "DynamIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCCF873169F2B1E003AA4A0 /* Debug */,
+				4CCCF874169F2B1E003AA4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCCF875169F2B1E003AA4A0 /* Build configuration list for PBXNativeTarget "DynamIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCCF876169F2B1E003AA4A0 /* Debug */,
+				4CCCF877169F2B1E003AA4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCCF83A169F2B1D003AA4A0 /* Project object */;
+}
