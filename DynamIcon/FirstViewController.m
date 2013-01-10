@@ -5,6 +5,7 @@
 //  Created by Florian Heller on 1/10/13.
 //  Copyright (c) 2013 Florian Heller - RWTH Aachen University. All rights reserved.
 //
+//	The thermometer icon is by Glyphish (www.glyphish.com)
 
 #import "FirstViewController.h"
 
